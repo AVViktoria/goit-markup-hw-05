@@ -677,7 +677,7 @@ img {
   /* background-repeat: no-repeat;
   background-position: center; */
   cursor: pointer;
-  transition: fill var(--main-animation);
+  transition: fill var(--main-animation), background-color var(--main-animation);
 }
 
 .icon-footer .link:hover,
@@ -709,7 +709,8 @@ Portfolio
 }
 
 .filters .btn {
-  transition: box-shadow var(--main-animation);
+  transition: box-shadow var(--main-animation), color var(--main-animation),
+    background-color var(----main-animation);
 }
 
 .filters .btn:hover,
@@ -780,7 +781,7 @@ Portfolio
 }
 
 .projects .link .project-actions {
-  transition: var(--main-animation);
+  transition: transform var(--main-animation);
 }
 
 .projects .link:hover .project-actions,
